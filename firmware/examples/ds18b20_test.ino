@@ -17,7 +17,7 @@ void setup() {
     Time.zone(-5);
     Particle.syncTime();
     pinMode(D2, INPUT);
-    Particle.variable("tempHotWater", &fahrenheit, DOUBLE);
+    Particle.variable("soilTemp", &celsius, DOUBLE);
     Serial.begin(115200);
 }
 
